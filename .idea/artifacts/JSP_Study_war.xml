@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="JSP_Study:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/JSP_Study_war</output-path>
+    <root id="archive" name="JSP_Study_war.war">
+      <element id="artifact" artifact-name="JSP_Study:war exploded" />
+    </root>
+  </artifact>
+</component>
