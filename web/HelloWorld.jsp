@@ -18,5 +18,8 @@ Hello World!<br/>
     //    System.out.println("Your address is " + request.getRemoteAddr());
     out.println("Your address is " + request.getRemoteAddr());
 %>
+<p>
+    今天的日期是: <%=(new java.util.Date()).toLocaleString()%>
+</p>
 </body>
 </html>
