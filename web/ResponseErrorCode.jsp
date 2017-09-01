@@ -1,16 +1,18 @@
 <%--
   Created by IntelliJ IDEA.
   User: sunzhongda
-  Date: 2017/8/31
-  Time: 上午9:17
+  Date: 2017/9/1
+  Time: 上午10:55
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  <jsp:forward page="ResponseErrorCode.jsp"></jsp:forward>
-  </body>
+<head>
+    <title>Setting HTTP Status Code</title>
+</head>
+<body>
+<%
+    response.sendError(407, "Need authentication!!!");
+%>
+</body>
 </html>
