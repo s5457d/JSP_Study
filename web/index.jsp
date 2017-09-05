@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  <jsp:forward page="GET.jsp"></jsp:forward>
+  <jsp:forward page="GET_TEST.jsp"></jsp:forward>
   </body>
 </html>
