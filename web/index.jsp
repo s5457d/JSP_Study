@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  <jsp:forward page="ResponseErrorCode.jsp"></jsp:forward>
+  <jsp:forward page="GET.jsp"></jsp:forward>
   </body>
 </html>
